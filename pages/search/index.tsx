@@ -21,18 +21,20 @@ const SearchPage = (
     const { searchTime, totalResults, items, itemsImgs } = props;
 
     return (
-        <>
+        <div>
             <Head>
                 <title>{title}</title>
             </Head>
 
             <SearchHeader searchTime={searchTime} totalResults={totalResults} />
-            {searchType === "" ? (
-                <SearchResult items={items} />
-            ) : (
-                <ImageResult itemsImgs={itemsImgs} />
-            )}
-        </>
+            <div className="mt-[191px]">
+                {searchType === "" ? (
+                    <SearchResult items={items} />
+                ) : (
+                    <ImageResult itemsImgs={itemsImgs} />
+                )}
+            </div>
+        </div>
     );
 };
 
