@@ -14,7 +14,7 @@ const ImageResult = (props: GoogleItemsImgsRes): JSX.Element => {
                             <div className="">
                                 <Link href={item.image.contextLink}>
                                     <img
-                                        className="group-hover:shadow-xl w-full h-60 object-cover"
+                                        className="group-hover:shadow-xl w-full h-60 object-contain"
                                         src={item.link}
                                         alt={item.title}
                                     />
