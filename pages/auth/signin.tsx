@@ -26,7 +26,7 @@ const Signin = (props: { providers: Provider[] }) => {
                         This website is created for learning purposes
                     </p>
                     <button
-                        className="bg-red-400 p-6 py-3 text-white font-bold rounded-xl hover:bg-red-500 duration-300"
+                        className="bg-red-400  p-6 py-3 text-white text-sm sm:text-md font-bold rounded-xl hover:bg-red-500 duration-300"
                         onClick={signinHandler.bind(null, provider)}
                     >
                         Sign In with {provider.name}

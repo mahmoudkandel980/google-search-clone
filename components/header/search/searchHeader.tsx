@@ -41,7 +41,7 @@ const SearchHeader = (props: GoogleAboutRes): JSX.Element => {
 
     return (
         <header className="fixed w-full top-0 bg-white">
-            <div className="flex w-full py-6 sm:p-6 items-center">
+            <div className="flex w-full py-6 px-1 sm:p-6 items-center">
                 <Image
                     src={"/images/google-logo.png"}
                     alt="google-logo"
