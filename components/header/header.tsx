@@ -4,7 +4,7 @@ import Users from "./users";
 const Header = (): JSX.Element => {
     return (
         <header>
-            <nav className="flex justify-between p-5 text-lg text-gray-700">
+            <nav className="flex justify-between  p-5 text-sm sm:text-lg text-gray-700">
                 <ul className="link-parent">
                     <li className="link">
                         <Link href={`https://about.google/`}>About</Link>

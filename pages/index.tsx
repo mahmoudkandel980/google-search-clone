@@ -78,7 +78,7 @@ const Home: NextPage = () => {
                     />
                     <IoMdMic className="absolute right-2 h-5 w-5 z-30 text-gray-500 " />
                 </div>
-                <div className="flex flex-col justify-center items-center space-y-8 mt-10 sm:flex-row sm:space-y-0 sm:space-x-16">
+                <div className="flex flex-col justify-center items-center space-y-3 mt-5 sm:flex-row sm:space-y-0 sm:space-x-16">
                     <button onClick={searchHandler} className="btn">
                         Google Search
                     </button>
